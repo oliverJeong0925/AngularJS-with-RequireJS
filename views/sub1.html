@@ -1,0 +1,10 @@
+<div class="text-center">
+	<h1>{{which}}</h1>
+	<ul class="list-group">
+		<li ng-repeat="user in userList" class="list-group-item">
+			<a ui-sref="userlist.detail({ userId: user.id })">
+				{{ user.name }}
+			</a>
+		</li>
+	</ul>
+</div>
