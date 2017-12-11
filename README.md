@@ -6,3 +6,8 @@ including :
 AngularJS,
 RequireJS,
 moment js
+
+Usually, I prefer to use jQuery(and jQuery-UI) with AngularJS, but it was not included in this project.
+
+If you want to jQuery, define in main.js file and set shim config.
+(refer to : http://requirejs.org/docs/jquery.html)
